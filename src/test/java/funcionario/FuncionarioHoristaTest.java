@@ -18,7 +18,7 @@ class FuncionarioHoristaTest {
         FuncionarioHorista funcionarioHorista = new FuncionarioHorista();
         funcionarioHorista.setNumDias(10);
         funcionarioHorista.setNumHorasDia(10);
-        funcionarioHorista.setValorHora(100);
+        funcionarioHorista.setValorHora(100f);
         assertEquals(10000f, funcionarioHorista.calcularSalario());
     }
 }
